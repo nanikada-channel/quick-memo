@@ -1,0 +1,116 @@
+.ttl_frame6 {
+    font-weight: bold;
+    padding: 0 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-left: 7px dotted #00215b;
+    background-color: #fff;
+    outline: 3px solid #00215b;
+    outline-offset: 0.5em;
+    position: relative;
+  }
+  .ttl_frame6::after {
+    content: '';
+    position: absolute;
+    right: calc(-0.5em - 3px);
+    top: calc(-0.5em - 3px);
+    border-width: 0 20px 20px 0;
+    border-style: solid;
+    border-color: #00215b #fff #4c9ac0;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+  }
+  body {
+    font-size: 50;
+    font-family: 'rounded mplus 1c medium',総称フォントファミリー名;
+    }
+    /*ここからはヘッダー*/
+    body {
+        padding-top: 90px; /* ヘッダーの後ろに要素が隠れないようにするため */
+    }
+
+    
+    header .gnav .menu {
+        display: flex; /* 中の要素を横並びにする */
+    }
+    
+    header .gnav .menu li {
+        list-style: none; /* リストの[・]を消す */
+    }
+    
+    header .gnav .menu li + li {
+        margin-left: 40px; /* メニューそれぞれに間隔をあけるため */
+    }
+    
+    main {
+        height: 100vw; /* スクロールの演出を見れるようにmainに高さを指定 */
+    }
+    .test {
+        list-style-position: inside;
+        color: #ff0000;
+        }
+        .test span {
+        color: #0000ff;
+        }
+        /*見出し*/
+        h3 {
+            color: #364e96;/*文字色*/
+            padding: 0.5em 0;/*上下の余白*/
+            border-top: solid 3px #364e96;/*上線*/
+            border-bottom: solid 3px #364e96;/*下線*/
+            font: size 100px;
+          }
+            input[type="text"] {
+            font-family: 'rounded mplus 1c medium'; /* フォントをArialに変更 */
+            font-size: 16px; /* フォントサイズを16pxに設定 */
+            color: #333; /* フォントの色を設定 */
+            padding: 10px; /* 内側の余白を設定 */
+            border: 1px solid #ccc; /* 境界線のスタイルを設定 */
+            border-radius: 4px; /* 角を丸くする */
+        }
+        textarea{
+            font-family: 'rounded mplus 1c medium'; /* フォントをArialに変更 */
+            font-size: 16px; /* フォントサイズを16pxに設定 */
+            color: #333; /* フォントの色を設定 */
+            padding: 10px; /* 内側の余白を設定 */
+            border: 1px solid #ccc; /* 境界線のスタイルを設定 */
+            border-radius: 4px; /* 角を丸くする */
+        }
+        .box-design12 {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #e1eef5;
+            position: relative;
+          }
+          .box-design12::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            border-width: 0 20px 20px 0;
+            border-style: solid;
+            border-color: #4c9ac0 #fff #4c9ac0;
+            box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15)
+          }
+                    
+          a.btn_03 {
+            display: block;
+            text-align: center;
+            vertical-align: middle;
+            text-decoration: none;
+            width: 120px;
+            margin: 0 10px; /* ボタンの間隔を調整 */
+            padding: 1rem 4rem;
+            font-weight: bold;
+            border: 2px solid #27acd9;
+            color: #27acd9;
+            border-radius: 100vh;
+            transition: 0.5s;
+        }
+        
+        a.btn_03:hover {
+            color: #fff;
+            background: #27acd9;
+        }
+        hr {
+            border-top: 2px solid rgba(0, 108, 239, 0.987); /* 赤 */
+          }
