@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="style.css">
+<body>
+<header>
+    <h1><font color="#123456">簡単メモ</font></h1>
+    </nav>
+</header>
+<div class="box-design12">
+    <p>
+        <title>簡単メモ</title>
+   使い方
+   <hr>
+   <li>タイトルと本文を入力するだけで簡単にメモできます。</li>
+   <li>本文の記入欄は、伸縮自在です。</li>
+   <li><font color="red"></style>⚠️注意!⚠️</font>タブを閉じると、書いたメモは消えます。ご注意ください！</li>
+    <li>問い合わせは<a href="https://forms.gle/mja5d7huUUKnoidy7">こちら</a>です。</li>
+    </p>
+  </div>
+<div class="title1">
+<h3>メモ1</h3>
+</div>
+<div class="name1">
+<p>タイトル</p><input type="text" size="20" name="name1" style="width:500px;">
+</div>
+<p>本文</p><textarea name="text1" cols="100" rows="5"></textarea></p>
+<div class="title2">
+<h3>メモ2</h3>
+</div>
+<div class="name2">
+    <p>タイトル</p><input type="text" size="20" name="name1" style="width:500px;">
+</div>
+<p>本文</p><textarea name="text1" cols="100" rows="5"></textarea></p><div class="title3">
+<h3>メモ3</h3>
+</div>
+<div class="name3">
+    <p>タイトル</p><input type="text" size="20" name="name1" style="width:500px;">
+</div>
+<p>本文</p><textarea name="text1" cols="100" rows="5"></textarea></p><h3>メモ4</h3>
+</div>
+<div class="name4">
+    <p>タイトル</p><input type="text" size="20" name="name1" style="width:500px;">
+</div>
+<p>本文</p><textarea name="text1" cols="100" rows="5"></textarea></p><div class="title5">
+<h3>メモ5</h3>
+</div>
+<div class="name5">
+    <p>タイトル</p><input type="text" size="20" name="name1" style="width:500px;">
+</div>
+<p>本文</p><textarea name="example1" cols="100" rows="5"></textarea></p>
+</body>
+<br>
+<br>
